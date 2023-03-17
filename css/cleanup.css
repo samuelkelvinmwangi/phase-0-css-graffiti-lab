@@ -1,1 +1,23 @@
 /* write your override styles here */
+#wall {
+    position: relative;
+    margin: 40px auto;
+    width: 980px;
+    height: 622px;
+    background: url(../images/wall.jpg) no-repeat center;
+    -moz-box-shadow: 15px 15px 47px rgb(49, 23, 109), -15px -15px 47px rgb(236, 54, 54);
+    -webkit-box-shadow: 15px 15px 47px rgb(209, 68, 80), -15px -15px 47px rgb(219, 132, 51);
+    box-shadow: 15px 15px 47px rgb(212, 210, 71), -15px -15px 47px rgb(165, 85, 197);
+    border: 15px solid rgb(100, 204, 207);
+    border-bottom: 60px solid rgb(202, 88, 88);
+  }
+
+  #wall .tag-1 {
+    display: none;
+  }
+
+  #wall #tag-2 {
+    background: url(../images/tag-2.png) no-repeat;
+    z-index: 6;
+    display: none;
+  }
